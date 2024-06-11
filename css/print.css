@@ -1,0 +1,23 @@
+body {
+	/* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+	background-color: #fff;
+	font-family: Serif;
+	font-size: 10pt;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+
+nav,
+figure {
+	/* Les éléments qui ne seront pas imprimés  */
+	display: none;
+}
+
+/*Ajout de l'URL du lien à la suite de celui-ci, entre parenthèses */
+a::after {
+	content: "(" attr(href) ")";
+}
