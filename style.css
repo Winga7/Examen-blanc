@@ -61,7 +61,7 @@ header {
 header p {
 	line-height: 2em;
 }
-@media (max-width: 729px) {
+@media (max-width: 720px) {
 	header {
 		flex-direction: column;
 	}
@@ -70,7 +70,7 @@ header p {
 	flex: 1 1 100%;
 }
 
-@media (max-width: 729px) {
+@media (max-width: 720px) {
 	#featured {
 		order: 1;
 	}
@@ -81,7 +81,7 @@ header aside {
 	gap: 1em;
 	flex: 0 0 30%;
 }
-@media (max-width: 729px) {
+@media (max-width: 720px) {
 	header aside {
 		flex-direction: row;
 	}
