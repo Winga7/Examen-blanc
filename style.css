@@ -46,6 +46,7 @@ nav {
 }
 nav ul {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	background-color: rgb(31, 31, 31);
 	padding: 1em;
